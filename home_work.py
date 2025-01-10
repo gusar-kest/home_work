@@ -1,7 +1,8 @@
 # ЗАДАНИЕ_1
 
 num_profile = 1
-wallet = 0x51647897454354564646456
+wallet = "0x51647897454354564646456"
+print(wallet)
 balance = 0.1512
 usdt_convert_eth = 3500*balance
 
@@ -17,7 +18,9 @@ print(f"my name is {name},my surname is {surname}" )
 
 # ЗАДАНИЕ_3
 
-full_name = name + surname
+surname = "Kest"
+name = "Competent"
+full_name = surname + ' ' + name
 print(full_name)
 
 print(f"{name} {surname}")
